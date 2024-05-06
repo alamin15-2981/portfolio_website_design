@@ -1,42 +1,103 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Default Css */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+::-webkit-scrollbar {
+  width: .8rem;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+::-webkit-scrollbar-thumb {
+  background-color: #00ff95;
+  border-radius: 1rem;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+::-webkit-scrollbar-track {
+  border-radius: 1rem;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@font-face {
+  font-family: facebook;
+  src: url('./assets/Segoe\ UI\ Historic.TTF');
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: facebook !important;
+  font-size: 1.6rem !important;
+  scroll-behavior: smooth;
+}
+p {
+  text-align: justify;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 14px;
+}
+.navbar-toggler-icon {
+  width: 2.5em !important;
+  height: 2.5em !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+a.navbar-brand {
+  font-size: 2.6rem;
+}
+.btn {
+  --bs-btn-padding-x: 1.75rem !important;
+  --bs-btn-font-size: 1.5rem !important;
+  --bs-btn-line-height: 2.6rem !important;
+}
+.p-80 {
+  padding: 8rem 0px;
+}
+.form-floating>.form-control, .form-floating>.form-control-plaintext {
+  padding: 3rem .75rem !important;
+  font-size: 1.7rem !important;
+}
+.form-control:focus {
+  border-color: #ccc !important;
+  box-shadow: none !important;
+}
+textarea {
+  resize: none !important;
+}
+.message-area {
+  min-height: 200px !important;
+}
+.active {
+  color: rgb(255 255 255) !important;
+  background-color: #0af4a1 !important;
+  padding: 0px 10px;
+  transition: background-color .6s linear !important;
+}
+/* Home Component Css */
+.home-leftside-area h1 {
+  color: #3bffa0;
+}
+/* About Component Css */
+.about-images-area img {
+  width: 60%;
+}
+.about-icon {
+  color: var(--head-icon-color);
+  font-size: 2.4rem;
+  margin-right: .4rem;
+}
+@media only screen and (max-width: 768px) {
+  .p-80 {
+    padding: 30px 0px;
   }
-  to {
-    transform: rotate(360deg);
+  .about-rightside-area {
+    margin-top: 80px !important;
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* Skills Component Css */
+.skills-icon {
+  font-size: 15rem;
+}
+/* Contact Component Css */
+@media only screen and (max-width: 576px) {
+  .contact-form {
+    margin-top: 50px !important;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
