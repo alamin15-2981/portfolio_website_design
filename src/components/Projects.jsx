@@ -4,21 +4,21 @@ const Projects = () => {
   return (
     <section className="container p-80">
       <div className="row">
-        <h3 className="display-3 fw-bold text-center mb-5">Projects</h3>
-        <p className="text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, fuga?</p>
-        <div className="col-lg-6 projects-leftside-area">
-          <h3><span style={{fontSize: "2rem"}}>My Creative Works</span> <br /> <span style={{color: "coral",fontSize: "5rem"}}>Latest Projects</span></h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis error commodi suscipit impedit nam esse? Aliquid obcaecati veritatis harum rerum at natus quibusdam nihil.</p>
-          <a href="" className='btn btn-info text-light'>Show More</a>
+        <h3 className="display-3 fw-bold text-center mb-5"> <span style={{fontSize: "2rem"}}>My Creative</span> <br /> <span style={{color: "coral"}}>Latest Project</span></h3>
+        
+
+        <div className="col-lg-6 my-5">
+          <video src="" controls className='w-100 rounded-3 ratio ratio-16x9'></video>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem iste vero earum, amet expedita deleniti dolor explicabo, iure repellendus dolore voluptatibus veritatis nisi ipsa repudiandae iusto ut quas officia? Aliquid inventore nobis repudiandae officia omnis voluptas neque, corrupti eum sit.</p>
+        </div>
+        <div className="col-lg-6 my-5">
+          <video src="" controls className='w-100 rounded-3 ratio ratio-16x9'></video>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem iste vero earum, amet expedita deleniti dolor explicabo, iure repellendus dolore voluptatibus veritatis nisi ipsa repudiandae iusto ut quas officia? Aliquid inventore nobis repudiandae officia omnis voluptas neque, corrupti eum sit.</p>
         </div>
 
-        <div className="col-lg-6 projects-rightside-area d-flex flex-wrap justify-content-evenly gap-4">
-          <video src="" controls>
-          </video>
-          <video src="" controls></video>
-          <video src="" controls></video>
+        <div className='text-center'>
+          <a href="https://github.com/alamin15-2981" target='_blank' className='btn btn-primary text-light w-25'>Show More</a>
         </div>
-
       </div>
     </section>
   )

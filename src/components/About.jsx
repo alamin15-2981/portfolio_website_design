@@ -17,17 +17,16 @@ const About = () => {
         <div className="col-lg-6 about-rightside-area">
           <span style={{color: "#ff9142"}}>My Intro</span>
           <h2 className='display-1 fw-bold'>About Me</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas eaque sunt eius repellat, voluptate odit? Ad dolorum natus debitis provident numquam veritatis. Provident sunt itaque architecto ipsa possimus, similique tempora!</p>
-          <address className='d-flex justify-content-around'>
-            <ul type="none">
+          <p>Hello, my name is Al Amin. I'm a full stack web application developer and native software application developer. Recently, I have completed my graduation from Daffodil International University on department of B.S.C in computer science and engineering.</p>
+          <address className='d-flex justify-content-evenly'>
+            <ul type="none" className='w-50'>
               <li>Name : Md Shovon</li>
               <li>Phone : 01316833956</li>
-              <li>gmail : mdshovon476@gmail.com</li>
+              <li>gmail : alamin15-2981@diu.edu.bd</li>
             </ul>
-            <ul type="none">
+            <ul type="none" className='w-50'>
               <li>Gender : Male</li>
-              <li>Address : Chandpur</li>
-              <li>Status : Single</li>
+              <li>Address : Block C Flat 122 Rd Number 4, Basundhara Residential Area, Bangladesh</li>
             </ul>
           </address>
           <p className='h1 fw-bold'>My Interests</p>
