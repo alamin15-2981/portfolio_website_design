@@ -68,7 +68,6 @@ textarea {
   color: rgb(255 255 255) !important;
   background-color: #0af4a1 !important;
   padding: 0px 10px;
-  transition: background-color .6s linear !important;
 }
 /* Home Component Css */
 .home-leftside-area h1 {
